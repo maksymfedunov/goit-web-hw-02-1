@@ -93,7 +93,7 @@ def birthdays(args, book):
 
 def main():
     book = load_data()
-    display = ConsoleDisplay
+    display = ConsoleDisplay()
     display.display_message("Welcome to the assistant bot!")
     while True:
         user_input = input("Enter a command: ")
